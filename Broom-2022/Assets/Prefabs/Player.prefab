@@ -14,9 +14,11 @@ GameObject:
   - component: {fileID: 6266903983300845453}
   - component: {fileID: 6266903983300845452}
   - component: {fileID: 6266903983300845489}
+  - component: {fileID: 189247061}
+  - component: {fileID: 189247055}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6266903983300845451}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -48,7 +50,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 1.8
-  m_Radius: 0.5
+  m_Radius: 0.4
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -302,7 +304,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72566d09e0d6404ca09584f28bc906b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile_Prefab: {fileID: 1370224322087763305, guid: e40ce2a385bdf1d4bac23b973faff80f, type: 3}
+  intial_Health: 100
+  initial_Projectile_Ammo: 12
+  knockbackForce: 100
+  hurtDuration: 0.5
+--- !u!65 &189247061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266903983300845451}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.5, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &189247055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266903983300845451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48806d8086bad8e47abac4df41c1bf6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decleration: 5
+  mass: 3
 --- !u!1 &6266903983700388719
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6266903983909084230}
   m_Layer: 0
-  m_Name: Weapon
+  m_Name: Weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6266903983909084229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: -0.6, z: 0.2}
+  m_LocalPosition: {x: 0.4, y: -0.21, z: -0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6266903984257196398}
@@ -440,7 +472,7 @@ Transform:
   m_GameObject: {fileID: 6266903984257196397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 6266903984744301873}
   - {fileID: 6266903983700387984}
