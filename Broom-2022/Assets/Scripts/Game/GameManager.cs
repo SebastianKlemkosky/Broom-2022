@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     //Need to somehow links these later
     public Text ammo_Text;
 
+    public Text player_Health_Text;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +26,8 @@ public class GameManager : MonoBehaviour
         //Need to change how we update this
         //Only update when the player shoots, or compare values between ammo in player vs ammo in manager
         ammo_Text.text = "Ammo: " + player.Ammo;
+
+        player_Health_Text.text = "Health: " + player.Player_Health;
+
     }
 }

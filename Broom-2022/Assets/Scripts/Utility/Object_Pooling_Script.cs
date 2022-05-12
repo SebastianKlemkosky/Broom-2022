@@ -38,7 +38,7 @@ public class Object_Pooling_Script : MonoBehaviour
 
 
     //Get a inactive Projectile from the pooling manager
-   public GameObject GetProjectile()
+   public GameObject GetProjectile(bool shot_By_Player)
     {
 
         //Search for a inactive projectile
@@ -47,6 +47,7 @@ public class Object_Pooling_Script : MonoBehaviour
             if (!projectile_Prefab.activeInHierarchy)
             {
                 projectile_Prefab.SetActive(true);
+                projectile_Prefab.GetComponent<Projectile_Bullet_Script>().Shot_By_Player = shot_By_Player; //The projectile was shot by the player
                 return projectile_Prefab;
             }
         }
@@ -56,6 +57,7 @@ public class Object_Pooling_Script : MonoBehaviour
         GameObject prefabInstance = Instantiate(projectile_Prefab);
         prefabInstance.transform.SetParent(transform);
         projectile_List.Add(prefabInstance);
+        prefabInstance.GetComponent<Projectile_Bullet_Script>().Shot_By_Player = shot_By_Player; //The projectile was shot by the player
         return prefabInstance;
     }
 }
