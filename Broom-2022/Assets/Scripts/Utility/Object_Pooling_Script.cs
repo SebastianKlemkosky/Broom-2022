@@ -12,7 +12,7 @@ public class Object_Pooling_Script : MonoBehaviour
     public static Object_Pooling_Script Instance { get { return instance; } }
 
     //This is for the Projectile Prefab
-    public GameObject projectile_Prefab; //Need to make add the components directly in code not in editor
+    public GameObject projectile_Prefab; //Need to make add the components directly in code not in editor  //What if we put the prefab in the weapon script
     public int projectile_Amount = 20;   //Create 20 projectile prefabs
     private List<GameObject> projectile_List;   //List of the projectile prefabs
 
