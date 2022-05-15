@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class Shooting_Enemy_Script : Enemy_Script
 {
 
+    public GameObject shooting_Projectile;
 
     public float shooting_Interval = 4f;
     public float shooting_Distance = 3f;
@@ -17,6 +18,9 @@ public class Shooting_Enemy_Script : Enemy_Script
     private float shooting_Timer;
     private float chasing_Timer;
     private NavMeshAgent agent;
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +46,7 @@ public class Shooting_Enemy_Script : Enemy_Script
 
             //Get the projectile from the pooling manager
             //Then get the direction for it to be fired
-            GameObject projectile = Object_Pooling_Script.Instance.GetProjectile(false);
+            GameObject projectile = Object_Pooling_Script.Instance.GetProjectile(false, shooting_Projectile);
             projectile.transform.position = transform.position;
             projectile.transform.forward = (player.transform.position - transform.position).normalized;
             

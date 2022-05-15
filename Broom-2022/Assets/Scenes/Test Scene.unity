@@ -978,6 +978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile_Prefab: {fileID: 1370224322087763305, guid: e40ce2a385bdf1d4bac23b973faff80f, type: 3}
+  projectile_Prefab2: {fileID: 7087136094579057166, guid: 65c87b89ec5de214aa7bfd851273bcc6, type: 3}
   projectile_Amount: 8
 --- !u!4 &1630379643
 Transform:

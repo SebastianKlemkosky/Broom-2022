@@ -130,6 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   damage: 5
+  shooting_Projectile: {fileID: 7087136094579057166, guid: 65c87b89ec5de214aa7bfd851273bcc6, type: 3}
   shooting_Interval: 4
   shooting_Distance: 6
   chasing_Interval: 2

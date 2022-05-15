@@ -33,7 +33,7 @@ public class Player_Script : MonoBehaviour
     void Update()
     {
         // This will need to be changed for different weapon types //Make it so each weapon has it's own input settings
-        if (Input.GetMouseButtonDown(0) )
+        if (Input.GetMouseButtonDown(0))
         {
             if(projectile_Ammo > 0)
             {
