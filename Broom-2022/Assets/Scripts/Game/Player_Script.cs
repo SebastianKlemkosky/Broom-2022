@@ -11,12 +11,6 @@ public class Player_Script : MonoBehaviour
     private int player_health; 
     public int Player_Health { get { return player_health; } }
 
-
-    public int initial_Projectile_Ammo = 12;
-    private int projectile_Ammo;
-    public int Ammo { get { return projectile_Ammo; } }
-
-
     public float knockbackForce = 10;
     private bool isHurt;
     public float hurtDuration = 0.5f;
@@ -25,28 +19,17 @@ public class Player_Script : MonoBehaviour
     void Start()
     {
         player_Camera = GetComponentInChildren<Camera>();
-        projectile_Ammo = initial_Projectile_Ammo;
         player_health = intial_Health;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // This will need to be changed for different weapon types //Make it so each weapon has it's own input settings
-        if (Input.GetMouseButtonDown(0))
-        {
-            if(projectile_Ammo > 0)
-            {
-                projectile_Ammo--;
-                GameObject fired_projectile = Object_Pooling_Script.Instance.GetProjectile(true);
-                fired_projectile.transform.position = player_Camera.transform.position + player_Camera.transform.forward;
-                fired_projectile.transform.forward = player_Camera.transform.forward;
-            }
+        
+       
 
-        }
+        
     }
-
-
 
 
     //Check for collisions
@@ -55,9 +38,17 @@ public class Player_Script : MonoBehaviour
         //If player collides with a Ammo_crate
         if (otherCollider.GetComponent<Ammo_Crate>() != null)
         {
+            
             Ammo_Crate ammo_Crate = otherCollider.GetComponent<Ammo_Crate>();
-            projectile_Ammo += ammo_Crate.ammo;
+            
+
+            //Award ammo to the correct weapon based on ammo crate type
+
+
             Destroy(ammo_Crate.gameObject);
+            
+
+            Debug.Log("Claimed Ammo Crate");
 
 
         }

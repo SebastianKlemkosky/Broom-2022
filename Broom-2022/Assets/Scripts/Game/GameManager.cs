@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     //Add Headers here later
     //Need to somehow links these later
-    public Text ammo_Text;
+    
 
     public Text player_Health_Text;
 
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     {
         //Need to change how we update this
         //Only update when the player shoots, or compare values between ammo in player vs ammo in manager
-        ammo_Text.text = "Ammo: " + player.Ammo;
+        
 
         player_Health_Text.text = "Health: " + player.Player_Health;
 

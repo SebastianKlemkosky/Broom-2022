@@ -29,6 +29,7 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
     private void Start()
     {
+        player_Camera = transform.root.GetComponentInChildren<Camera>();
         bullets_Left = magazine_Size;
         ready_To_Shoot = true; 
     }
