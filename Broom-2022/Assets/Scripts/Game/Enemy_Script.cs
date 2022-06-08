@@ -9,7 +9,8 @@ public class Enemy_Script : MonoBehaviour
     public int damage = 5;
 
     private bool killed = false;
-    
+ 
+
     private void OnTriggerEnter(Collider otherCollider)
     {
         //If the enemy gets hit by a projectile
@@ -41,6 +42,23 @@ public class Enemy_Script : MonoBehaviour
 
         }
     }
+
+    //When the enemy gets hit by a raycast apply the damage and Kill the enemy if needed
+    public void OnRayHit(int d)
+    {
+        health -= d;
+        if (health <= 0)
+        {
+            if (killed == false)
+            {
+                killed = true;
+                OnKill();
+            }
+
+
+        }
+    }
+
 
     protected virtual void  OnKill()
     {

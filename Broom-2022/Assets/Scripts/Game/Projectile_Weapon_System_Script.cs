@@ -14,10 +14,17 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
 
     public int Ammo { get { return projectile_Ammo; } }
 
+
+
+    //Graphics 
+    public Camera_Shake_Script camera_Shake;
+    public float camera_Shake_Magnitude, camera_Shake_Duration;
+
     // Start is called before the first frame update
     void Start()
     {
         player_Camera = transform.root.GetComponentInChildren<Camera>();
+        camera_Shake = transform.root.GetComponentInChildren<Camera_Shake_Script>();
         projectile_Ammo = initial_Projectile_Ammo;
     }
 
@@ -33,6 +40,11 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
                 GameObject fired_projectile = Object_Pooling_Script.Instance.GetProjectile(true, shooting_Projectile);
                 fired_projectile.transform.position = player_Camera.transform.position + player_Camera.transform.forward;
                 fired_projectile.transform.forward = player_Camera.transform.forward;
+
+                //Shake Camera
+                StartCoroutine(camera_Shake.Shake(camera_Shake_Duration, camera_Shake_Magnitude));
+
+
             }
 
         }

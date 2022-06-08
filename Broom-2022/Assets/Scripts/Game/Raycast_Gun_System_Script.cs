@@ -24,12 +24,16 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
 
     //Graphics 
-    //Can Add Camera Shake later if needed at 5:20
+    public Camera_Shake_Script camera_Shake;
+    public float camera_Shake_Magnitude, camera_Shake_Duration;
+
+
     //Can Add Other Graphic stuff later
 
     private void Start()
     {
         player_Camera = transform.root.GetComponentInChildren<Camera>();
+        camera_Shake = transform.root.GetComponentInChildren<Camera_Shake_Script>();
         bullets_Left = magazine_Size;
         ready_To_Shoot = true; 
     }
@@ -87,14 +91,24 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
 
             //Here Apply Damage to enemy if hit
-            
-            
+            if (ray_Hit.collider.GetComponent<Enemy_Script>() != null)
+            {
+                Enemy_Script enemy = ray_Hit.collider.GetComponent<Enemy_Script>();
+
+                enemy.OnRayHit(damage);
+                
+            }
+
 
         }
 
         //Input Graphics Here
 
+        //Shake Camera
+        StartCoroutine(camera_Shake.Shake(camera_Shake_Duration, camera_Shake_Magnitude));
 
+
+        //Bullet Graphics
 
         bullets_Left--;
         bullets_Shot--;

@@ -130,6 +130,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1531418061}
     m_Modifications:
+    - target: {fileID: 1039937052, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263779677, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413712695, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413712697, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: damage
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1413712697, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
       propertyPath: magazine_Size
       value: 100
@@ -142,9 +158,25 @@ PrefabInstance:
       propertyPath: what_Is_Enemy.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 1413712697, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: camera_Shake_Duration
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413712697, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: camera_Shake_Magnitude
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2102040574, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6266903983300845451, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266903983300845451, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6266903983300845488, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
       propertyPath: m_RootOrder
@@ -190,9 +222,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6266903983700388719, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266903983909084229, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6266903984257196397, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
       propertyPath: m_Name
       value: Projectile Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266903984257196397, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266903984504270624, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266903984744301872, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
@@ -508,6 +560,23 @@ Transform:
   m_Father: {fileID: 1531418061}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1200270875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6266903984504270624, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
+  m_PrefabInstance: {fileID: 7176412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1200270880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200270875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a2d2ccdb1ecfd45b62ef92fd11041f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1204836887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6266903984257196397, guid: 7ab4d2d1958e701478f5f0cbb3a0791a, type: 3}
@@ -527,6 +596,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shooting_Projectile: {fileID: 1370224322087763305, guid: e40ce2a385bdf1d4bac23b973faff80f, type: 3}
   initial_Projectile_Ammo: 12
+  camera_Shake: {fileID: 0}
+  camera_Shake_Magnitude: 0.1
+  camera_Shake_Duration: 0.05
 --- !u!1 &1224726250
 GameObject:
   m_ObjectHideFlags: 0
