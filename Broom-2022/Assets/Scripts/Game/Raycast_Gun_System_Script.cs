@@ -27,8 +27,12 @@ public class Raycast_Gun_System_Script : MonoBehaviour
     public Camera_Shake_Script camera_Shake;
     public float camera_Shake_Magnitude, camera_Shake_Duration;
 
+    public ParticleSystem shooting_System;
+    public ParticleSystem impact_Particles_System;
+    public TrailRenderer bullet_Trail;
 
-    //Can Add Other Graphic stuff later
+
+    
 
     private void Start()
     {
@@ -80,15 +84,25 @@ public class Raycast_Gun_System_Script : MonoBehaviour
         float x = Random.Range(-spread, spread);
         float y = Random.Range(-spread, spread);
 
+
+
         //Calculate Direction with Spread
         Vector3 direction = player_Camera.transform.forward + new Vector3(x, y, 0);
+
+
 
 
         //Raycast
         if(Physics.Raycast(player_Camera.transform.position, direction, out ray_Hit, range, what_Is_Enemy))
         {
+
+            //Play Shooting system
+            shooting_System.Play();
+
             Debug.Log(ray_Hit.collider.name);
 
+            TrailRenderer trail = Instantiate(bullet_Trail, attack_Point.transform.position, Quaternion.identity);
+            StartCoroutine(SpawnTrail(trail, ray_Hit));
 
             //Here Apply Damage to enemy if hit
             if (ray_Hit.collider.GetComponent<Enemy_Script>() != null)
@@ -144,7 +158,29 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
 
 
+    private IEnumerator SpawnTrail(TrailRenderer trail, RaycastHit Hit)
+    {
+        float time = 0;
+        Vector3 start_Position = trail.transform.position;
 
+
+        while(time < 1)
+        {
+            trail.transform.position = Vector3.Lerp(start_Position, Hit.point, time);
+            time += Time.deltaTime / trail.time;
+
+            yield return null;
+        }
+
+
+        trail.transform.position = Hit.point;
+        Instantiate(impact_Particles_System, Hit.point, Quaternion.LookRotation(Hit.normal));
+
+
+        Destroy(trail.gameObject, trail.time);
+
+
+    }
 
 
 }
