@@ -101,6 +101,7 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
             Debug.Log(ray_Hit.collider.name);
 
+            //Object Pooling needs to be added here later
             TrailRenderer trail = Instantiate(bullet_Trail, attack_Point.transform.position, Quaternion.identity);
             StartCoroutine(SpawnTrail(trail, ray_Hit));
 
@@ -174,6 +175,8 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
 
         trail.transform.position = Hit.point;
+
+        //Object Pooling needes to be added here
         Instantiate(impact_Particles_System, Hit.point, Quaternion.LookRotation(Hit.normal));
 
 

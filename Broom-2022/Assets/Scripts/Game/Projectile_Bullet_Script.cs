@@ -16,13 +16,18 @@ public class Projectile_Bullet_Script : MonoBehaviour
     void OnEnable()
     {
         life_Timer = duration;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Make the projectile move
-        transform.position += transform.forward * speed * Time.deltaTime;
+
+       //Make the projectile move if there is no rigidbody component
+      
+       transform.position += transform.forward * speed * Time.deltaTime;
+        
+        
 
         //Check if the bullet should be set inactive
         life_Timer -= Time.deltaTime;
