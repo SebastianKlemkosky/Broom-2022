@@ -1,18 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Projectile_Weapon_System_Script : MonoBehaviour
 {
     //projectile
     public GameObject shooting_Projectile;
-
-    
-
-    public int initial_Projectile_Ammo = 12;
-    private int projectile_Ammo;
-
-    public int Ammo { get { return projectile_Ammo; } }
 
 
     //projectile forces
@@ -21,8 +15,10 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
     //Gun Stats
     public float time_Between_Shooting, spread, reload_Time, time_Between_Shots;
     public int magazine_Size, bullets_Per_Tap;
+    public int max_Reserve_Ammo, reserve_Ammo;
     public bool allow_Button_Hold;
     int bullets_Left, bullets_Shot;
+    
 
     //bools 
     bool shooting, ready_To_Shoot, reloading;
@@ -32,7 +28,7 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
     //To to link these in code
     private Camera player_Camera;
     public Transform attack_Point;
-
+    public Text ammo_Text;
 
 
     //Graphics 
@@ -48,7 +44,7 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
     {
         player_Camera = transform.root.GetComponentInChildren<Camera>();
         camera_Shake = transform.root.GetComponentInChildren<Camera_Shake_Script>();
-        projectile_Ammo = initial_Projectile_Ammo;
+        
         bullets_Left = magazine_Size;
         ready_To_Shoot = true;
     }
@@ -59,27 +55,12 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
     void Update()
     {
         MyInput();
-        /*
-
-        // This will need to be changed for different weapon types //Make it so each weapon has it's own input settings
-        if (Input.GetMouseButtonDown(0))
+        if (reserve_Ammo > max_Reserve_Ammo)
         {
-            if (projectile_Ammo > 0)
-            {
-                projectile_Ammo--;
-                GameObject fired_projectile = Object_Pooling_Script.Instance.GetProjectile(true, shooting_Projectile);
-                fired_projectile.transform.position = player_Camera.transform.position + player_Camera.transform.forward;
-                fired_projectile.transform.forward = player_Camera.transform.forward;
-
-                //Shake Camera
-                StartCoroutine(camera_Shake.Shake(camera_Shake_Duration, camera_Shake_Magnitude));
-
-
-            }
-
+            reserve_Ammo = max_Reserve_Ammo;
         }
 
-        */
+        ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo ;
 
     }
 
@@ -194,13 +175,49 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
 
     private void Reload()
     {
-        reloading = true;
-        Invoke("ReloadFinished", reload_Time);
+        //Check if there is any ammo in reserve
+        if (reserve_Ammo > 0)
+        {
+            reloading = true;
+            Invoke("ReloadFinished", reload_Time);
+        }
+        else
+        {
+            //Replace this later
+            Debug.Log("Out of Ammo");
+            
+        }
+
     }
 
     private void ReloadFinished()
     {
-        bullets_Left = magazine_Size;
+        int bullets_needed;
+        if (bullets_Left > 0)
+        {
+            bullets_needed = magazine_Size - bullets_Left;
+
+        }
+        else
+        {
+            bullets_needed = magazine_Size;
+        }
+
+        //Check if there is enough bullets for a full magizine
+        if (reserve_Ammo > bullets_needed)
+        {
+            bullets_Left = magazine_Size;
+            reserve_Ammo -= bullets_needed;
+            
+        }
+        else
+        {
+            bullets_Left = reserve_Ammo + bullets_Left;
+            reserve_Ammo = 0;
+        }
+
+
+
         reloading = false;
     }
 

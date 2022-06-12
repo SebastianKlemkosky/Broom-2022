@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Raycast_Gun_System_Script : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Raycast_Gun_System_Script : MonoBehaviour
     public int damage;
     public float time_Between_Shooting, spread, range, reload_Time, time_Between_Shots;
     public int magazine_Size, bullets_Per_Tap;
+    public int max_Reserve_Ammo, reserve_Ammo;
     public bool allow_Button_Hold;
     int bullets_Left, bullets_Shot;
 
@@ -21,7 +23,7 @@ public class Raycast_Gun_System_Script : MonoBehaviour
     public Transform attack_Point;
     public RaycastHit ray_Hit;
     public LayerMask what_Is_Enemy;
-
+    public Text ammo_Text;
 
     //Graphics 
     public Camera_Shake_Script camera_Shake;
@@ -45,7 +47,15 @@ public class Raycast_Gun_System_Script : MonoBehaviour
     private void Update()
     {
         MyInput();
+
+        if (reserve_Ammo > max_Reserve_Ammo)
+        {
+            reserve_Ammo = max_Reserve_Ammo;
+        }
+
         //Set the Ammo count and mag stuff later
+        ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo;
+
     }
 
     private void MyInput()
@@ -65,6 +75,10 @@ public class Raycast_Gun_System_Script : MonoBehaviour
             Reload();
         }
 
+        if (ready_To_Shoot && shooting && !reloading && bullets_Left <= 0)
+        {
+            Reload();
+        }
 
         //Shoot
         if (ready_To_Shoot && shooting && !reloading && bullets_Left > 0)
@@ -147,13 +161,49 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
     private void Reload()
     {
-        reloading = true;
-        Invoke("ReloadFinished", reload_Time);
+        //Check if there is any ammo in reserve
+        if (reserve_Ammo > 0)
+        {
+            reloading = true;
+            Invoke("ReloadFinished", reload_Time);
+        }
+        else
+        {
+            //Replace this later
+            Debug.Log("Out of Ammo");
+
+        }
+
     }
 
     private void ReloadFinished()
     {
-        bullets_Left = magazine_Size;
+        int bullets_needed;
+        if (bullets_Left > 0)
+        {
+            bullets_needed = magazine_Size - bullets_Left;
+
+        }
+        else
+        {
+            bullets_needed = magazine_Size;
+        }
+
+        //Check if there is enough bullets for a full magizine
+        if (reserve_Ammo > bullets_needed)
+        {
+            bullets_Left = magazine_Size;
+            reserve_Ammo -= bullets_needed;
+
+        }
+        else
+        {
+            bullets_Left = reserve_Ammo + bullets_Left;
+            reserve_Ammo = 0;
+        }
+
+
+
         reloading = false;
     }
 

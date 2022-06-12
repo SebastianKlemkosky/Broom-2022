@@ -7,7 +7,7 @@ public class Ammo_Crate : MonoBehaviour
 
     public GameObject container;
     public float rotation_Speed = 180f;
-    public int ammo = 12;
+    public int container_Ammo = 12;
 
     private void Start()
     {

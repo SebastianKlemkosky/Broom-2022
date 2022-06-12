@@ -11,9 +11,9 @@ public class Player_Script : MonoBehaviour
     private int player_health; 
     public int Player_Health { get { return player_health; } }
 
-    public float knockbackForce = 10;
-    private bool isHurt;
-    public float hurtDuration = 0.5f;
+    public float knockback_Force = 10;
+    private bool is_Hurt;
+    public float hurt_Duration = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -62,7 +62,7 @@ public class Player_Script : MonoBehaviour
 
         //Touching Enemies
         //If the player is getting hurt
-        if (isHurt == false)
+        if (is_Hurt == false)
         {
             GameObject hazard = null;
             if (otherCollider.GetComponent<Enemy_Script>() != null)
@@ -85,12 +85,12 @@ public class Player_Script : MonoBehaviour
 
             if(hazard != null)
             {
-                isHurt = true;
+                is_Hurt = true;
 
                 //Perform the knockback effect
                 Vector3 hurtDirection = (transform.position - hazard.transform.position).normalized;
                 Vector3 knockbackDirection = (hurtDirection + Vector3.up).normalized;
-                GetComponent<ForceReceiver>().AddForce(knockbackDirection, knockbackForce);
+                GetComponent<ForceReceiver>().AddForce(knockbackDirection, knockback_Force);
 
                 StartCoroutine(HurtRoutine());
             }
@@ -103,8 +103,8 @@ public class Player_Script : MonoBehaviour
 
     IEnumerator HurtRoutine()
     {
-        yield return new WaitForSeconds(hurtDuration);
-        isHurt = false;
+        yield return new WaitForSeconds(hurt_Duration);
+        is_Hurt = false;
     }
 
 

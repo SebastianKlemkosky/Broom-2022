@@ -7,18 +7,17 @@ using UnityEngine;
 public class Weapon_Selection_Script : MonoBehaviour
 {
 
-
-    //Also needs to switch the weapons projectile/ bullets / method of damage to the current weapon's one and deactives the others
-    //Will need to make use of the object pooling manager, and projectile bullet scripts
-
     public int selected_Weapon = 0; //The index of the selectedWeapon
 
-
+    //Make a list of the current weapons held by the player
+    private List<GameObject> current_Weapon_List;
 
 
     // Start is called before the first frame update
     void Start()
     {
+       
+
         SelectedWeapon();
     }
 
