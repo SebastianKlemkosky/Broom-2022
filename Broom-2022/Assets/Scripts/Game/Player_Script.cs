@@ -40,9 +40,10 @@ public class Player_Script : MonoBehaviour
         {
             
             Ammo_Crate ammo_Crate = otherCollider.GetComponent<Ammo_Crate>();
-            
 
             //Award ammo to the correct weapon based on ammo crate type
+
+       
 
 
             Destroy(ammo_Crate.gameObject);

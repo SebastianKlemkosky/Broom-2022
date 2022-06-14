@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class Projectile_Weapon_System_Script : MonoBehaviour
 {
+
     //projectile
     public GameObject shooting_Projectile;
-
 
     //projectile forces
     //public float shoot_Force, upward_Force;

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Raycast_Gun_System_Script : MonoBehaviour
 {
+
     //Gun Stats
     public int damage;
     public float time_Between_Shooting, spread, range, reload_Time, time_Between_Shots;
@@ -24,6 +25,8 @@ public class Raycast_Gun_System_Script : MonoBehaviour
     public RaycastHit ray_Hit;
     public LayerMask what_Is_Enemy;
     public Text ammo_Text;
+
+
 
     //Graphics 
     public Camera_Shake_Script camera_Shake;

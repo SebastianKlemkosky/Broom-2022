@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,17 +10,23 @@ public class Weapon_Selection_Script : MonoBehaviour
 
     public int selected_Weapon = 0; //The index of the selectedWeapon
 
-    //Make a list of the current weapons held by the player
-    private List<GameObject> current_Weapon_List;
+  
 
+
+    private void Awake()
+    {
+       
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-       
 
+        
         SelectedWeapon();
     }
+
+
 
     // Update is called once per frame
     void Update()
@@ -85,5 +92,7 @@ public class Weapon_Selection_Script : MonoBehaviour
             i++;
         }
     }
+
+   
 
 }

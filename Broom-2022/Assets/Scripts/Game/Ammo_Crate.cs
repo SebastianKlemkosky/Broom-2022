@@ -5,14 +5,18 @@ using UnityEngine;
 public class Ammo_Crate : MonoBehaviour
 {
 
+    public GameObject Weapon;
+
     public GameObject container;
     public float rotation_Speed = 180f;
     public int container_Ammo = 12;
 
+
     private void Start()
     {
+        
         container = transform.GetChild(0).gameObject;   //This should get the first child object of the AmmoCrate Script
-
+        
     }
 
     void Update()
