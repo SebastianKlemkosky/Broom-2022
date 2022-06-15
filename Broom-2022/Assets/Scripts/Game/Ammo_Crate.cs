@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ammo_Crate : MonoBehaviour
 {
 
-    public GameObject Weapon;
+    public GameObject weapon_Type;
 
     public GameObject container;
     public float rotation_Speed = 180f;

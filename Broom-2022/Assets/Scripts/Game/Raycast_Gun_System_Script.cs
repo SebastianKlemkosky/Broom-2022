@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class Raycast_Gun_System_Script : MonoBehaviour
 {
 
+    //if the player has the gun in it's inventory
+    bool in_Inventory;
+
     //Gun Stats
     public int damage;
     public float time_Between_Shooting, spread, range, reload_Time, time_Between_Shots;
@@ -51,10 +54,7 @@ public class Raycast_Gun_System_Script : MonoBehaviour
     {
         MyInput();
 
-        if (reserve_Ammo > max_Reserve_Ammo)
-        {
-            reserve_Ammo = max_Reserve_Ammo;
-        }
+
 
         //Set the Ammo count and mag stuff later
         ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo;
@@ -132,6 +132,12 @@ public class Raycast_Gun_System_Script : MonoBehaviour
             }
 
 
+        }
+        else
+        {
+            shooting_System.Play();
+            TrailRenderer trail = Instantiate(bullet_Trail, attack_Point.transform.position, Quaternion.identity);
+            StartCoroutine(SpawnTrail(trail, ray_Hit));
         }
 
         //Input Graphics Here

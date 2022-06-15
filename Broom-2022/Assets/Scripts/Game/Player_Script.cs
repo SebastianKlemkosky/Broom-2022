@@ -6,6 +6,7 @@ public class Player_Script : MonoBehaviour
 {
     //Need to make add the components directly in code not in editor
     private Camera player_Camera;
+    private Weapon_Selection_Script weapons;
 
     public int intial_Health = 100;
     private int player_health; 
@@ -19,6 +20,7 @@ public class Player_Script : MonoBehaviour
     void Start()
     {
         player_Camera = GetComponentInChildren<Camera>();
+        weapons = GetComponentInChildren<Weapon_Selection_Script>();
         player_health = intial_Health;
     }
 
@@ -41,10 +43,10 @@ public class Player_Script : MonoBehaviour
             
             Ammo_Crate ammo_Crate = otherCollider.GetComponent<Ammo_Crate>();
 
+
             //Award ammo to the correct weapon based on ammo crate type
 
-       
-
+            weapons.AddAmmo(ammo_Crate.weapon_Type, ammo_Crate.container_Ammo);
 
             Destroy(ammo_Crate.gameObject);
             
@@ -73,7 +75,8 @@ public class Player_Script : MonoBehaviour
                 hazard = enemy.gameObject;
                 player_health -= enemy.damage;
 
-            } else if(otherCollider.GetComponent<Projectile_Bullet_Script>() != null)
+            } 
+            else if(otherCollider.GetComponent<Projectile_Bullet_Script>() != null)
             {
                 Projectile_Bullet_Script projectile = otherCollider.GetComponent<Projectile_Bullet_Script>();
                 if(projectile.Shot_By_Player == false)

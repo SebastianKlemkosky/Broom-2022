@@ -61,13 +61,8 @@ public class Object_Pooling_Script : MonoBehaviour
    public GameObject GetProjectile(bool shot_By_Player)
     {
 
-        
-
         //Search for the specific projectile in the list of list
         //Then Search for inactive projectile within this list
-
-
-
 
         //Search for a inactive projectile
         foreach(GameObject projectile_Prefab in projectile_List_Of_Lists[0])
