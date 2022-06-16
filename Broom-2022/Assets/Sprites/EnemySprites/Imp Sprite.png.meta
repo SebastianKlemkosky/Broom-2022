@@ -1,0 +1,1764 @@
+fileFormatVersion: 2
+guid: bb6668a9b8515e641b7d58b0bfd73d80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1882606935978778380
+    second: Doom Imp Sprite Sheet_0
+  - first:
+      213: 4524302885200814031
+    second: Doom Imp Sprite Sheet_1
+  - first:
+      213: -2973922892220676473
+    second: Doom Imp Sprite Sheet_2
+  - first:
+      213: 3578477013234644395
+    second: Doom Imp Sprite Sheet_3
+  - first:
+      213: 1500510456157503494
+    second: Doom Imp Sprite Sheet_4
+  - first:
+      213: 6517936388703638890
+    second: Doom Imp Sprite Sheet_5
+  - first:
+      213: 9131307731884401313
+    second: Doom Imp Sprite Sheet_6
+  - first:
+      213: 3137726043057104650
+    second: Doom Imp Sprite Sheet_7
+  - first:
+      213: -7804523236026322004
+    second: Doom Imp Sprite Sheet_8
+  - first:
+      213: -6207056755159115701
+    second: Doom Imp Sprite Sheet_9
+  - first:
+      213: -8053728331670427882
+    second: Doom Imp Sprite Sheet_10
+  - first:
+      213: 3123544177924903789
+    second: Doom Imp Sprite Sheet_11
+  - first:
+      213: -2722510735680319476
+    second: Doom Imp Sprite Sheet_12
+  - first:
+      213: 7739847823405199896
+    second: Doom Imp Sprite Sheet_13
+  - first:
+      213: -4715376841654701105
+    second: Doom Imp Sprite Sheet_14
+  - first:
+      213: -5609692615097687073
+    second: Doom Imp Sprite Sheet_15
+  - first:
+      213: 5578913768890066561
+    second: Doom Imp Sprite Sheet_16
+  - first:
+      213: 8533148982792585107
+    second: Doom Imp Sprite Sheet_17
+  - first:
+      213: 264634125618761879
+    second: Doom Imp Sprite Sheet_18
+  - first:
+      213: -1597844710538350823
+    second: Doom Imp Sprite Sheet_19
+  - first:
+      213: 704704187824226353
+    second: Doom Imp Sprite Sheet_20
+  - first:
+      213: 7309926321942116889
+    second: Doom Imp Sprite Sheet_21
+  - first:
+      213: -2671485401005655139
+    second: Doom Imp Sprite Sheet_22
+  - first:
+      213: 7540778173191718319
+    second: Doom Imp Sprite Sheet_23
+  - first:
+      213: -5462561903550535261
+    second: Doom Imp Sprite Sheet_24
+  - first:
+      213: 8862185182382254338
+    second: Doom Imp Sprite Sheet_25
+  - first:
+      213: 4384455957977652398
+    second: Doom Imp Sprite Sheet_26
+  - first:
+      213: 1415478798180226172
+    second: Doom Imp Sprite Sheet_27
+  - first:
+      213: -3486178335379719790
+    second: Doom Imp Sprite Sheet_28
+  - first:
+      213: -6066122307912631669
+    second: Doom Imp Sprite Sheet_29
+  - first:
+      213: -2062244386787288237
+    second: Doom Imp Sprite Sheet_30
+  - first:
+      213: -7409666910154961216
+    second: Doom Imp Sprite Sheet_31
+  - first:
+      213: -3311136401330224488
+    second: Doom Imp Sprite Sheet_32
+  - first:
+      213: -9176164505380779191
+    second: Doom Imp Sprite Sheet_33
+  - first:
+      213: -6768842705215226292
+    second: Doom Imp Sprite Sheet_34
+  - first:
+      213: 3032928728871270763
+    second: Doom Imp Sprite Sheet_35
+  - first:
+      213: -7199023054001732197
+    second: Doom Imp Sprite Sheet_36
+  - first:
+      213: 3574481056971129856
+    second: Doom Imp Sprite Sheet_37
+  - first:
+      213: -794266373853660967
+    second: Doom Imp Sprite Sheet_38
+  - first:
+      213: -1003096023804008773
+    second: Doom Imp Sprite Sheet_39
+  - first:
+      213: -3376235444540791609
+    second: Doom Imp Sprite Sheet_40
+  - first:
+      213: 6622681356831941884
+    second: Doom Imp Sprite Sheet_41
+  - first:
+      213: -6410547422213957943
+    second: Doom Imp Sprite Sheet_42
+  - first:
+      213: -614536225545622789
+    second: Doom Imp Sprite Sheet_43
+  - first:
+      213: -5162525187270239772
+    second: Doom Imp Sprite Sheet_44
+  - first:
+      213: -4945092719371119827
+    second: Doom Imp Sprite Sheet_45
+  - first:
+      213: 2476782093144182990
+    second: Doom Imp Sprite Sheet_46
+  - first:
+      213: -182308833676317833
+    second: Doom Imp Sprite Sheet_47
+  - first:
+      213: -5606010460119481097
+    second: Doom Imp Sprite Sheet_48
+  - first:
+      213: 4887879518637047875
+    second: Doom Imp Sprite Sheet_49
+  - first:
+      213: -8342415491723045062
+    second: Doom Imp Sprite Sheet_50
+  - first:
+      213: -8329772129293424044
+    second: Doom Imp Sprite Sheet_51
+  - first:
+      213: -1570358156955331421
+    second: Doom Imp Sprite Sheet_52
+  - first:
+      213: 1048488200152827408
+    second: Doom Imp Sprite Sheet_53
+  - first:
+      213: -2532740640575923163
+    second: Doom Imp Sprite Sheet_54
+  - first:
+      213: -8498431405836986387
+    second: Doom Imp Sprite Sheet_55
+  - first:
+      213: 7757193590392361666
+    second: Doom Imp Sprite Sheet_56
+  - first:
+      213: 8831126141162767901
+    second: Doom Imp Sprite Sheet_57
+  - first:
+      213: 1412973808396803045
+    second: Doom Imp Sprite Sheet_58
+  - first:
+      213: 5458287975240893519
+    second: Doom Imp Sprite Sheet_59
+  - first:
+      213: 4032338158346373649
+    second: Doom Imp Sprite Sheet_60
+  - first:
+      213: -3799856754468446929
+    second: Doom Imp Sprite Sheet_61
+  - first:
+      213: 8025489912578379006
+    second: Doom Imp Sprite Sheet_62
+  - first:
+      213: -6468633897799171914
+    second: Doom Imp Sprite Sheet_63
+  - first:
+      213: 8593065970971943137
+    second: Doom Imp Sprite Sheet_64
+  - first:
+      213: 1414676219761315664
+    second: Doom Imp Sprite Sheet_65
+  - first:
+      213: -7330177345752044495
+    second: Doom Imp Sprite Sheet_66
+  - first:
+      213: -2715313708160567801
+    second: Doom Imp Sprite Sheet_67
+  - first:
+      213: -4390085732936614385
+    second: Doom Imp Sprite Sheet_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1082
+        width: 83
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f93b6a80d502a10800000000000000
+      internalID: 1882606935978778380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1086
+        width: 81
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf5ba8d08d89ce30800000000000000
+      internalID: 4524302885200814031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1098
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786c8c3d2e08ab6d0800000000000000
+      internalID: -2973922892220676473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1102
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba570ca42ed49a130800000000000000
+      internalID: 3578477013234644395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1098
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60007015f42e2d410800000000000000
+      internalID: 1500510456157503494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 967
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65d54dac9c547a50800000000000000
+      internalID: 6517936388703638890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 965
+        width: 77
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a26fbd900ce8be70800000000000000
+      internalID: 9131307731884401313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 976
+        width: 77
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0729e636317b8b20800000000000000
+      internalID: 3137726043057104650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 984
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca37e5b8773c0b390800000000000000
+      internalID: -7804523236026322004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 986
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b485d0084ca1cd9a0800000000000000
+      internalID: -6207056755159115701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 841
+        width: 79
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617e849b0c86b3090800000000000000
+      internalID: -8053728331670427882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 845
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63147d61ee095b20800000000000000
+      internalID: 3123544177924903789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 855
+        width: 63
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00569e09e2b73ad0800000000000000
+      internalID: -2722510735680319476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 859
+        width: 56
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812b5a18696796b60800000000000000
+      internalID: 7739847823405199896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 863
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc37113eebd9f8eb0800000000000000
+      internalID: -4715376841654701105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 724
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd368f9b94e5622b0800000000000000
+      internalID: -5609692615097687073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 728
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1866a33b3884c6d40800000000000000
+      internalID: 5578913768890066561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 742
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f76de0ac5db6670800000000000000
+      internalID: 8533148982792585107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 746
+        width: 61
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790d3fcc55b2ca300800000000000000
+      internalID: 264634125618761879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 746
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fef1693b053d9e0800000000000000
+      internalID: -1597844710538350823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 600
+        width: 99
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1304ef2a9bc97c900800000000000000
+      internalID: 704704187824226353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 608
+        width: 65
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a33a99243127560800000000000000
+      internalID: 7309926321942116889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 622
+        width: 79
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b7a629e2afcead0800000000000000
+      internalID: -2671485401005655139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 626
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa58c17bbc936a860800000000000000
+      internalID: 7540778173191718319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 624
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9e94ff3e41134b0800000000000000
+      internalID: -5462561903550535261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 620
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209ef91387eccfa70800000000000000
+      internalID: 8862185182382254338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 616
+        width: 83
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac5a94c677b8dc30800000000000000
+      internalID: 4384455957977652398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 610
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7411a8a77ac4a310800000000000000
+      internalID: 1415478798180226172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 487
+        width: 89
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2997708464b9e9fc0800000000000000
+      internalID: -3486178335379719790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 489
+        width: 91
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a7bc096edc0dba0800000000000000
+      internalID: -6066122307912631669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 499
+        width: 85
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b108d08af6163e0800000000000000
+      internalID: -2062244386787288237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 503
+        width: 73
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce4f3c04339b2990800000000000000
+      internalID: -7409666910154961216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 505
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892c8d37cfa7c02d0800000000000000
+      internalID: -3311136401330224488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 505
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b0b30fff6b7a080800000000000000
+      internalID: -9176164505380779191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 499
+        width: 102
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ef6272c6d3012a0800000000000000
+      internalID: -6768842705215226292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 491
+        width: 79
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69f2791c90271a20800000000000000
+      internalID: 3032928728871270763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 373
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b950168acaee71c90800000000000000
+      internalID: -7199023054001732197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 373
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0048029359b1b9130800000000000000
+      internalID: 3574481056971129856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 381
+        width: 119
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d83a61f0f23af4f0800000000000000
+      internalID: -794266373853660967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 389
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb62e812b794412f0800000000000000
+      internalID: -1003096023804008773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 385
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4201250c33521d0800000000000000
+      internalID: -3376235444540791609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 391
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4e1960b9d78eb50800000000000000
+      internalID: 6622681356831941884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 389
+        width: 117
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6142385192907a0800000000000000
+      internalID: -6410547422213957943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 381
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa6ebe0f8ab877f0800000000000000
+      internalID: -614536225545622789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 260
+        width: 83
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e910c4c1b60b58b0800000000000000
+      internalID: -5162525187270239772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 258
+        width: 63
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2393883f508f5bb0800000000000000
+      internalID: -4945092719371119827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 242
+        width: 74
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec058efe03c4f5220800000000000000
+      internalID: 2476782093144182990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 258
+        width: 69
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bae49e41f487df0800000000000000
+      internalID: -182308833676317833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 256
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4447d30337332b0800000000000000
+      internalID: -5606010460119481097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 129
+        width: 85
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340c44d668c35d340800000000000000
+      internalID: 4887879518637047875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 135
+        width: 83
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37d12f6f49c93c80800000000000000
+      internalID: -8342415491723045062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 145
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a2485a164b66c80800000000000000
+      internalID: -8329772129293424044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 240
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a45a8c8397f43ae0800000000000000
+      internalID: -1570358156955331421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 238
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0164c41867afc8e00800000000000000
+      internalID: 1048488200152827408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 208
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cd6427ec5e9dcd0800000000000000
+      internalID: -2532740640575923163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 161
+        width: 97
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7101bb9a18f0a80800000000000000
+      internalID: -8498431405836986387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 93
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c21649987617ab60800000000000000
+      internalID: 7757193590392361666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3
+        width: 99
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d164ca2af667e8a70800000000000000
+      internalID: 8831126141162767901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3
+        width: 111
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb1c664134eb9310800000000000000
+      internalID: 1412973808396803045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 93
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4405068efbbfbb40800000000000000
+      internalID: 5458287975240893519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 117
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a0d76d03eb5f730800000000000000
+      internalID: 4032338158346373649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 33
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d1a801a62344bc0800000000000000
+      internalID: -3799856754468446929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 119
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc07bbfd84406f60800000000000000
+      internalID: 8025489912578379006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 37
+        width: 115
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b041a30ebbca36a0800000000000000
+      internalID: -6468633897799171914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 57
+        width: 115
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0a74bf8f3b04770800000000000000
+      internalID: 8593065970971943137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 63
+        width: 112
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fc01fc680f1a310800000000000000
+      internalID: 1414676219761315664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 89
+        width: 113
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c65dd7a8af54a90800000000000000
+      internalID: -7330177345752044495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 3
+        width: 104
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706375b9194415ad0800000000000000
+      internalID: -2715313708160567801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom Imp Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 89
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e7dca19484313c0800000000000000
+      internalID: -4390085732936614385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 83616db2893480f43815a071eeec1656
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
