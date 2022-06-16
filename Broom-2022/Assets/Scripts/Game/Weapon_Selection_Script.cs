@@ -108,37 +108,64 @@ public class Weapon_Selection_Script : MonoBehaviour
 
     }
 
-    public void AddAmmo(GameObject w, int ammo)
+
+    public void AddAmmo(Ammo_Crate ammo_Crate)
     {
+
+        int ammo = ammo_Crate.container_Ammo;
+        GameObject w = ammo_Crate.weapon_Type;
+
+  
+
 
         foreach (GameObject weapon in current_Weapon_List)
         {
             if (weapon.name == w.name)
             {
-                if(weapon.GetComponent<Raycast_Gun_System_Script>() != null)
+                //for raycast weapons
+                if (weapon.GetComponent<Raycast_Gun_System_Script>() != null)
                 {
-                    weapon.GetComponent<Raycast_Gun_System_Script>().reserve_Ammo += ammo;
+                    Raycast_Gun_System_Script current_Weapon = weapon.GetComponent<Raycast_Gun_System_Script>();
 
-                    if (weapon.GetComponent<Raycast_Gun_System_Script>().reserve_Ammo 
-                        > weapon.GetComponent<Raycast_Gun_System_Script>().max_Reserve_Ammo)
+                    //Check if the player already has max ammo in the gun
+                    if (current_Weapon.reserve_Ammo != current_Weapon.max_Reserve_Ammo)
                     {
-                        weapon.GetComponent<Raycast_Gun_System_Script>().reserve_Ammo
-                            = weapon.GetComponent<Raycast_Gun_System_Script>().max_Reserve_Ammo;
+                        current_Weapon.reserve_Ammo += ammo;
+                        Debug.Log("Claimed Ammo Crate");
+                        Destroy(ammo_Crate.gameObject);
+                    }
+
+                    if (current_Weapon.reserve_Ammo
+                        > current_Weapon.max_Reserve_Ammo)
+                    {
+                        current_Weapon.reserve_Ammo
+                            = current_Weapon.max_Reserve_Ammo;
                     }
                 }
-                else if(weapon.GetComponent<Projectile_Weapon_System_Script>() != null)
+                //For projectile weapons
+                else if (weapon.GetComponent<Projectile_Weapon_System_Script>() != null)
                 {
-                    weapon.GetComponent<Projectile_Weapon_System_Script>().reserve_Ammo += ammo;
+                    Projectile_Weapon_System_Script current_Weapon = weapon.GetComponent<Projectile_Weapon_System_Script>();
 
-                    if (weapon.GetComponent<Projectile_Weapon_System_Script>().reserve_Ammo 
-                        > weapon.GetComponent<Projectile_Weapon_System_Script>().max_Reserve_Ammo)
+                    //Check if the player already has max ammo in the gun
+                    if (current_Weapon.reserve_Ammo != current_Weapon.max_Reserve_Ammo)
                     {
-                        weapon.GetComponent<Projectile_Weapon_System_Script>().reserve_Ammo 
-                            = weapon.GetComponent<Projectile_Weapon_System_Script>().max_Reserve_Ammo;
+                        current_Weapon.reserve_Ammo += ammo;
+                        Debug.Log("Claimed Ammo Crate");
+                        Destroy(ammo_Crate.gameObject);
                     }
-                    
+
+                    if (current_Weapon.reserve_Ammo
+                        > current_Weapon.max_Reserve_Ammo)
+                    {
+                        current_Weapon.reserve_Ammo
+                            = current_Weapon.max_Reserve_Ammo;
+                    }
+
 
                 }
+                
+
 
 
             }
@@ -147,7 +174,8 @@ public class Weapon_Selection_Script : MonoBehaviour
 
 
 
-
     }
+
+
 
 }

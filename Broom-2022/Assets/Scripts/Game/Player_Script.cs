@@ -42,17 +42,8 @@ public class Player_Script : MonoBehaviour
         {
             
             Ammo_Crate ammo_Crate = otherCollider.GetComponent<Ammo_Crate>();
-
-
             //Award ammo to the correct weapon based on ammo crate type
-
-            weapons.AddAmmo(ammo_Crate.weapon_Type, ammo_Crate.container_Ammo);
-
-            Destroy(ammo_Crate.gameObject);
-            
-
-            Debug.Log("Claimed Ammo Crate");
-
+            weapons.AddAmmo(ammo_Crate);
 
         }
 
