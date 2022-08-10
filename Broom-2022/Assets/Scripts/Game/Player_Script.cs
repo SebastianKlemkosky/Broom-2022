@@ -37,6 +37,17 @@ public class Player_Script : MonoBehaviour
     //Check for collisions
     void OnTriggerEnter(Collider otherCollider)
     {
+
+        //if player collides with a weapon pickup
+        if (otherCollider.GetComponent<Weapon_Pickup_Script>() != null)
+        {
+            //Check to see if the player has the weapon or not
+            //Then Instantiate the weapon in the inventory
+            Weapon_Pickup_Script weaponPickup = otherCollider.GetComponent<Weapon_Pickup_Script>();
+            weapons.AddWeapon(weaponPickup);
+
+        }
+
         //If player collides with a Ammo_crate
         if (otherCollider.GetComponent<Ammo_Crate>() != null)
         {

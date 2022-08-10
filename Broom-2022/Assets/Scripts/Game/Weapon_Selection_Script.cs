@@ -109,6 +109,43 @@ public class Weapon_Selection_Script : MonoBehaviour
     }
 
 
+    //Check if the weapon exists in the players inventory
+    //If it doesnt then instantiate it into the inventory
+    //else just add some ammo 
+    public void AddWeapon(Weapon_Pickup_Script weaponPickup)
+    {
+
+        GameObject w = weaponPickup.weapon_Type;
+        foreach (GameObject weapon in current_Weapon_List)
+        {
+            if (weapon.name == w.name)
+            {
+                Debug.Log("Player is already carrying this weapon");
+                //Add Ammo or something here later
+                return;
+            }
+        }
+
+
+        for(int i = 0; i < complete_Weapon_List.Count; i++)
+        {
+            if (complete_Weapon_List[i].name == w.name)
+            {
+                GameObject newWeapon = Instantiate(complete_Weapon_List[i], transform.position, transform.rotation, transform);
+                newWeapon.name = w.name;
+                IntializeCurrentWeaponList();
+                selected_Weapon = i;
+                SelectedWeapon();
+                return;
+            }
+        }
+        
+
+
+
+ 
+    }
+
     public void AddAmmo(Ammo_Crate ammo_Crate)
     {
 

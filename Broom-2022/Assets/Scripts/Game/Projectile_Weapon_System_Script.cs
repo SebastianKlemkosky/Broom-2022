@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class Projectile_Weapon_System_Script : MonoBehaviour
 {
 
-    //if the player has the gun in it's inventory
-    bool in_Inventory;
+    
 
     //projectile
     public GameObject shooting_Projectile;
@@ -60,8 +59,8 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
         MyInput();
 
 
-        ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo ;
-
+        //ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo ;
+        //Need to link this in code
     }
 
     private void MyInput()

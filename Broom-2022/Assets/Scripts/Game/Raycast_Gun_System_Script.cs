@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class Raycast_Gun_System_Script : MonoBehaviour
 {
 
-    //if the player has the gun in it's inventory
-    bool in_Inventory;
+    
 
     //Gun Stats
     public int damage;
@@ -57,8 +56,8 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
 
         //Set the Ammo count and mag stuff later
-        ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo;
-
+        //ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo;
+        //Need to link this in code 
     }
 
     private void MyInput()
