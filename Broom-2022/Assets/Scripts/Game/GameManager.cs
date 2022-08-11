@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     private Player_Script player;
 
+
     //Add Headers here later
     //Need to somehow links these later
     
