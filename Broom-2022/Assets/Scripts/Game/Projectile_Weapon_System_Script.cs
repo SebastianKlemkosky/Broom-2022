@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class Projectile_Weapon_System_Script : MonoBehaviour
 {
 
-    
-
     //projectile
     public GameObject shooting_Projectile;
 
@@ -31,6 +29,7 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
     private Camera player_Camera;
     public Transform attack_Point;
     public Text ammo_Text;
+    public Player_Script player;
 
 
     //Graphics 
@@ -46,7 +45,8 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
     {
         player_Camera = transform.root.GetComponentInChildren<Camera>();
         camera_Shake = transform.root.GetComponentInChildren<Camera_Shake_Script>();
-        
+        player = transform.root.GetComponentInChildren<Player_Script>();
+
         bullets_Left = magazine_Size;
         ready_To_Shoot = true;
     }
@@ -59,7 +59,7 @@ public class Projectile_Weapon_System_Script : MonoBehaviour
         MyInput();
 
 
-        //ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo ;
+        player.ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo;
         //Need to link this in code
     }
 

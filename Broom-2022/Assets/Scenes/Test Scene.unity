@@ -743,8 +743,8 @@ RectTransform:
   m_Children:
   - {fileID: 281527745}
   - {fileID: 8347831}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 6266903983303761772}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1035,7 +1035,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1414737689 stripped
 Transform:
@@ -2046,6 +2046,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6921313578687795430, guid: 7ab4d2d1958e701478f5f0cbb3a0791a,
+        type: 3}
+      propertyPath: ammo_Text
+      value: 
+      objectReference: {fileID: 8347832}
     - target: {fileID: 6921313578687795431, guid: 7ab4d2d1958e701478f5f0cbb3a0791a,
         type: 3}
       propertyPath: m_RootOrder
