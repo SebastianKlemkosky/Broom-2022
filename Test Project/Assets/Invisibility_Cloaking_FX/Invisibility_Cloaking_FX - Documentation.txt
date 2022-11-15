@@ -1,0 +1,28 @@
+Load Invisibility_Cloaking_FX.unity for an example scene, clicking the left mouse button to cloak/de-cloak the character. A controllable character as seen in the example video has not been included with this package as the Asset Store asks for the Standard Assets not to be included to avoid potential compatibility issues. However, step by step instructions are included here to get a demo character set up:
+
+1. First load "Invisibility_Cloaking_FX.unity" for a demo environment to place your character in. Delete the "Man" GameObject (in the hierarchy window).
+
+2. Import the Character Standard Assets into your scene (from the top menu: Assets -> Import Package -> Characters). The Standard Assets can be found for free on the Unity Asset Store.
+
+3. Add the ThirdPersonController to the your scene; drag it from the Project window (in Standard Assets -> Characters -> ThirdPersonCharacter -> Prefabs -> ThirdPersonController) into the Hierarchy window. Check its Position and Rotation transforms are all at 0 (in the Inspector  window).
+
+4. Create an empty GameObject, set all its Position and Rotation transforms to 0 in the Inspector Window, rename it to "Geometry", then drag it into the ThirdPersonController group.
+
+5. Move the EthanBody and Ethan Glasses models into this new Geometry GameObject (you'll get a message that this will break the Prefab but just click continue). Select the Geometry group and duplicate it (CTRL d), then rename it to "GeometryCloaked".
+
+6. The invisibility material needs to be applied to the cloaked meshes; Select EthanBody (under GeometryCloaked in the Hierarchy window), then in the Inspector Window find Materials under which you should see EthanGrey (the material current applied to the mesh). Find the Cloak_Material_mtl in the Project window (in FBX -> Materials), then drag it on EthanGrey in the Inspector window to replace it. Do the same for EthanGlasses.
+
+7. Add Cloak_Audio from the Prefabs folder in the Project window into the ThirdPersonController group in the Hierarchy window.
+
+8. Add the Invisibility_Cloak script to the ThirdPersonController group (drag it from the Scripts folder in the Project window).
+
+7. Next, select the ThirdPersonController in the Hierarchy window, then find the newly added Invisibilty_Cloak scipt in the Inspector window (it'll be at the bottom of the window). You need to populate the 4 empty slots in the script by dragging in the required items; drag in Geometry (under the ThirdPersonController in the Hierarchy window) into the Character Geometry slot. Drag in GeometryCloaked (under the ThirdPersonController in the Hierarchy window) into the Character Cloaked slot. Drag in Cloak_Material_mtl (under FBX -> Materials in the Project window) into the Cloak Material slot. And finally drag Cloak_Audio (under ThirdPersonController in the Hierarchy window) into the Cloak Audio slot.
+
+9. That's it - you're all set! Run the game and click the left mouse button to cloak/de-cloak your character.
+
+
+Have fun!
+
+Thanks for purchasing this asset - please consider rating or writing a review about it. If you have any questions then don't hesitate to get in touch at bendurrant@rivermillstudios.com 
+
+If you use this or any of Rivermill Studios other assets then we'd love to know (and help you promote them!).

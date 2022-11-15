@@ -27,7 +27,7 @@ public class Raycast_Gun_System_Script : MonoBehaviour
     public RaycastHit ray_Hit;
     public LayerMask what_Is_Enemy;
     public Text ammo_Text;
-
+    public Player_Script player;
 
 
     //Graphics 
@@ -46,7 +46,9 @@ public class Raycast_Gun_System_Script : MonoBehaviour
         player_Camera = transform.root.GetComponentInChildren<Camera>();
         camera_Shake = transform.root.GetComponentInChildren<Camera_Shake_Script>();
         bullets_Left = magazine_Size;
-        ready_To_Shoot = true; 
+        ready_To_Shoot = true;
+        player = transform.root.GetComponentInChildren<Player_Script>();
+
     }
 
     private void Update()
@@ -56,7 +58,7 @@ public class Raycast_Gun_System_Script : MonoBehaviour
 
 
         //Set the Ammo count and mag stuff later
-        //ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo;
+        player.ammo_Text.text = "Ammo: " + bullets_Left + " / " + magazine_Size + " | " + reserve_Ammo;
         //Need to link this in code 
     }
 

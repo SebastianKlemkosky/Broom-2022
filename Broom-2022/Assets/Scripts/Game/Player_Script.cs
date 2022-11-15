@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Script : MonoBehaviour
 {
     //Need to make add the components directly in code not in editor
     private Camera player_Camera;
     private Weapon_Selection_Script weapons;
+    public GameObject player_Canvas;
 
     public int intial_Health = 100;
     private int player_health; 
@@ -15,6 +17,9 @@ public class Player_Script : MonoBehaviour
     public float knockback_Force = 10;
     private bool is_Hurt;
     public float hurt_Duration = 0.5f;
+
+
+    public Text ammo_Text;
 
     // Start is called before the first frame update
     void Start()
